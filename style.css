@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/*---Navtop---*/
+
+.bg-navtop  {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background:#F5FAFE;
+}
+
+.navtop {
+    display: flex;
+    align-items: center;
+    width: 1100px;
+    height: 60px;
+    background:#F5FAFE;
+    font-family: "Mulish";
+    font-style: normal;
+}
+
+.navtop__left {
+    width: 550px;
+}
+
+.navtop__left p {
+    font-size: 10px;
+}
+
+
+.navtop__right {
+    width: 550px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.navtop__right img {
+    width: 18px;
+    height: 18px;
+    margin-left: 100px;
+}
+
+.navtop__right p {
+    font-size: 10px;
+    color: #333333;
+    margin: 0 20px;
+}
+
+
+
+/*---Navbar---*/
+
+
+.bg-navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1100px;
+    height: 120px;
+    background: #FFFFFF;
+}
+
+.navbar__logo {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.navbar__search {
+    display: flex;
+    width: 350px;
+    height: 40px;
+
+}
+
+.navbar__search input {
+    width: 350px;
+    background-color: #F5FAFE;
+    border-radius: 6px;
+    border: none;
+    
+}
+
+
+::placeholder {
+    font-family: "Mulish";
+    font-size: 12px;
+    color: #333333;
+    line-height: 15.06px;
+    padding: 20px;
+    
+}
+
+.search {
+    display: flex;
+    width: 65px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: #EC1F46;
+    border-radius: 0px 6px 6px 0px;
+}
+
+
+.navbar img  {
+    width: 16px;
+    height: 16px;
+    
+}
+
+
+.navbar__cart {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 13px;
+    position: relative;
+}
+
+.navbar__cart img {
+    width: 34px;
+    height: 34px;
+}
+
+.navbar__cart .elipse {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: #EC1F46;
+    border-radius: 100%;
+    bottom: 25px;
+    right: -8px;  
+}
+
+.navbar__profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navbar__cart .elipse p {
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
+.navbar__profile .ellipse {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.navbar__profile p {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #333333;
+    margin-right: 15px;
+}
+
+.navbar__profile img {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.bg-bottom {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background:#0A223D;
+}
+
+.navbar__bottom {
+    width: 1100px;
+    height: 80px;
+    background:#0A223D;
+}
+
+
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: darkkhaki;
+    width: 100%;
+}
+
+.bread__crump {
+    width: 1100px;
+    height: 50px;
+    background: darkorange;
+}
+
+.slider {
+    width: 1100px;
+    height: 450px;
+    background: darkolivegreen;
+}
+
+.card  {
+    width: 1100px;
+    height: 35.32px;
+    background: dodgerblue;
+}
+
+.package__summer {
+    width: 1100px;
+    height: 842px;
+    background: forestgreen;
+}
