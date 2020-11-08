@@ -56,7 +56,7 @@ header {
 .navtop__right p {
     font-size: 10px;
     color: #333333;
-    margin: 0 20px;
+    margin-left: 20px;
 }
 
 
@@ -193,11 +193,6 @@ header {
 
 
 
-
-
-
-
-
 .bg-bottom {
     display: flex;
     justify-content: center;
@@ -206,34 +201,298 @@ header {
 }
 
 .navbar__bottom {
-    width: 1100px;
+    display: flex;
     height: 80px;
     background:#0A223D;
 }
 
 
+.navbar__bottom ul {
+    width: 1100px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
 
+.navbar__bottom ul li {
+    display: flex;
+    font-family: "Mulish";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 14px;
+    color: #FFFFFF;
+}
 
 
 .container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background: darkkhaki;
+    background: #F5FAFE;
     width: 100%;
 }
 
 .bread__crump {
     width: 1100px;
     height: 50px;
-    background: darkorange;
+    display: flex;
+    align-items: center;
+    background: #F5FAFE;
 }
 
+.bread__crump p {
+    font-family: "Mulish";
+    font-size: 10px;
+    line-height: 13px;
+    color: #333333;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+    height: 100px;
+    background: #F5FAFE;
+}
+
+
+.name__title {
+    display: flex;
+    align-items: center;
+}
+
+.name__title h2 {
+    font-family: "Mulish";
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.name__title p {
+    font-family: "Mulish";
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
+.name__rectangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 20px;
+    background: #EC1F46;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.name__subtitle {
+    font-family: "Mulish";
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 15px;
+    color: #333333;
+}
+
+.rattings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 45px;
+    border-radius: 4px;
+    background: #EC1F46;
+    font-family: "Mulish";
+}
+
+.rattings__user {
+    font-size: 8px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+
+.rattings__numbers {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.rattings__numbers span {
+    font-size: 10px;
+}
+
+
 .slider {
+    display: flex;
     width: 1100px;
     height: 450px;
-    background: darkolivegreen;
+    background: #F5FAFE;
 }
+
+
+.slider__foto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 728px;
+    height: 450px;
+    border-radius: 8px;
+    background: url(img/Rectangle\ 5.png), #C4C4C4;
+}
+
+.slider__foto__arrow {
+    width: 690px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider__right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: space-between;
+    height: 450px;
+
+}
+
+
+.booking {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    width: 350px;
+    height: 210px;
+    border-radius: 8px;
+    background: #0A223D;
+    color: #FFFFFF;
+    font-family: 'Nunito', sans-serif;  
+}
+
+.booking__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 295px;
+}
+
+.booking__left {
+    display: flex;
+    flex-wrap: wrap;
+    width: 86px;
+    height: 59px;
+}
+
+.booking__left p {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.booking__left h4 {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.booking__right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80px;
+    height: 40px; 
+}
+
+.booking__right img {
+    width: 14px;
+    height: 14px;
+    /* margin-right: 7px; */
+}
+
+.booking__right p {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.booking__phone {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+    width: 295px;
+    height: 25px;
+}
+
+
+.booking__phone h3 {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.booking__phone p {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.booking__phone p img {
+    width: 14px;
+    height: 14px;
+    margin-right: 7px;
+}
+
+
+.booking__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 295px;
+    height: 45px;
+    border-radius: 4px;
+    background: #EC1F46;
+}
+
+.booking__button p {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+
+.maps {
+    width: 347px;
+    height: 213px;
+    background: url(img/Map.png);
+}
+
+
+
+
+
+
 
 .card  {
     width: 1100px;
@@ -246,3 +505,5 @@ header {
     height: 842px;
     background: forestgreen;
 }
+
+
