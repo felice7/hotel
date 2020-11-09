@@ -489,16 +489,63 @@ header {
 }
 
 
-
-
-
-
-
-.card  {
+.cards  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 1100px;
-    height: 35.32px;
-    background: dodgerblue;
+    height: 100px;
+    background: #F5FAFE;
 }
+
+.cards__menu {
+    display: flex;
+}
+
+
+.cards__menu ul {
+    display: flex;
+    list-style-type: none;
+    width: 1100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cards__menu ul li {
+    position: relative;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;
+}
+
+
+.cards__menu ul li:nth-child(1){
+    color: #EC1F46;
+}
+.cards__menu ul li:nth-child(1)::before{
+    content: "";
+    position: absolute;
+    top: 30px;
+    width: 130px;
+    height: 4px;
+    background: #EC1F46;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .package__summer {
     width: 1100px;
