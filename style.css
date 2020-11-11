@@ -525,6 +525,7 @@ header {
 .cards__menu ul li:nth-child(1){
     color: #EC1F46;
 }
+
 .cards__menu ul li:nth-child(1)::before{
     content: "";
     position: absolute;
@@ -536,21 +537,114 @@ header {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-.package__summer {
+.package {
+    display: flex;
+    justify-content: space-between;
     width: 1100px;
     height: 842px;
-    background: forestgreen;
+    font-family: "Mulish";
+    background:#F5FAFE;
+    margin-top: 30px;
 }
 
+.package__title {
+    position: absolute;
+}
+
+.package h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #333333;
+}
+
+
+.package__card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 538px;
+    height: 200px;
+    background: #FFFFFF;
+    border-radius: 8px 8px 8px 0px;
+    margin-top: 80px;
+}
+
+.package__card__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 538px;
+    height: 50px;
+    background: #0A223D;
+    border-radius: 8px 8px 0 0;
+    
+}
+
+.package__card__title p {
+    width: 479px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.package__card__body {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 479px;
+    height: 96px;
+}
+
+.package__card__body p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #333333;
+}
+
+.package__card__body__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 240px;
+}
+
+.package__card__body__right {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+}
+
+.package__card__body__left img,
+.package__card__body__right img {
+    width: 18px;
+    height: 18px;
+}
+
+.package__card__body__left p,
+.package__card__body__right p {
+    margin-bottom: 20px;
+    
+}
+
+.package__card__body__left img,
+.package__card__body__right img {
+    margin-right: 20px;
+}
+
+.package__card__body__left .offer {
+    display: flex;
+    width: 205px;
+}
+
+.package__card__body__left .valid {
+    width: 168px;
+    margin-left: 40px;
+    font-size: 10px;
+}
 
