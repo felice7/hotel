@@ -753,3 +753,190 @@ header {
 }
 
 
+.title__other {
+    width: 1100px;
+    margin: 80px;
+}
+
+.title__other h1{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 45px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+
+.other__packages {
+    width: 1100px;
+    height: 1250px;
+}
+
+.other__packages__up {
+    display: flex;
+    justify-content: space-between;
+}
+.other__packages__down {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.other__packages__card__1 {
+    display: flex;
+    width: 730px;
+    height: 500px;
+}
+
+.other__packages__card__1__left {
+    width: 366px;
+    height: 500px;
+    background: url(img/Rectangle\ 20.png);
+    border-radius: 8px 0px 0px 8px;
+}
+
+.offer__red {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95px;
+    height: 30px;
+    background: #EC1F46;
+    border-radius: 0px 4px 4px 0px;
+    margin-top: 30px;
+}
+
+
+.offer__red p {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 10px;
+    color: #FFFFFF;
+}
+
+.other__packages__card__1__right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 366px;
+    height: 500px;
+    background: #0A223D;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.other__packages__card__1__right__title {
+    width: 299px;
+    margin-top: 30px;
+}
+
+
+.other__packages__card__1__right__title p {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.other__packages__card__1__right__text{
+    width: 299px;
+    height: 165px;
+}
+
+.other__packages__card__1__right__text p {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 160.6%;
+    color: #FFFFFF;
+}
+
+.other__packages__card__1__right__room{
+    width: 299px;
+}
+
+.other__packages__card__1__right__room p {
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.other__packages__card__1__right__room img {
+    margin-right: 10px;
+}
+
+.other__packages__card__1__right__price {
+    display: flex;
+    justify-content: space-between;
+    width: 299px;
+}
+
+.other__packages__card__1__right__price p {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: normal;
+    color: #FFFFFF;
+}
+
+.other__packages__card__1__right__price h3 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+
+
+.other__packages__card__1__right__price .button__red {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    background: #EC1F46;
+    border-radius: 4px;
+}
+
+.other__packages__card__1__right__price .button__red p {
+    font-family: "Nunito";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+.other__packages__card__2 {
+    width: 350px;
+    height: 500px;
+}
+
+.other__packages__card__2__photo {
+    width: 350px;
+    height: 250px;
+    background: url(img/Rectangle\ 21.png);
+    border-radius: 8px 8px 0px 0px;
+}
+
+.other__packages__card__2__down {
+    width: 350px;
+    height: 250px;
+    background: #0A223D;
+    border-radius: 0px 0px 8px 8px;
+
+}
+
+
+
+.other__packages__card__3 {
+    width: 350px;
+    height: 500px;
+    background: yellowgreen;
+    margin-top: 30px;
+}
