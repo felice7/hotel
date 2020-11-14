@@ -416,7 +416,6 @@ header {
 .booking__right img {
     width: 14px;
     height: 14px;
-    /* margin-right: 7px; */
 }
 
 .booking__right p {
@@ -770,7 +769,6 @@ header {
 
 .other__packages {
     width: 1100px;
-    height: 1250px;
 }
 
 .other__packages__up {
@@ -796,7 +794,7 @@ header {
     border-radius: 8px 0px 0px 8px;
 }
 
-.offer__red {
+.other__packages__card__1__left .offer__red {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -808,7 +806,7 @@ header {
 }
 
 
-.offer__red p {
+.other__packages__card__1__left .offer__red p {
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
@@ -832,14 +830,15 @@ header {
 }
 
 
-.other__packages__card__1__right__title p {
+.other__packages__card__1__right__title p,
+.other__packages__card__2__down__title > p {
     font-size: 18px;
     font-weight: bold;
     line-height: 23px;
     color: #FFFFFF;
 }
 
-.other__packages__card__1__right__text{
+.other__packages__card__1__right__text {
     width: 299px;
     height: 165px;
 }
@@ -851,35 +850,40 @@ header {
     color: #FFFFFF;
 }
 
-.other__packages__card__1__right__room{
+.other__packages__card__1__right__room {
     width: 299px;
 }
 
-.other__packages__card__1__right__room p {
+.other__packages__card__1__right__room p,
+.other__packages__card__2__down__room p {
     font-size: 12px;
     line-height: 15px;
     color: #FFFFFF;
     margin-bottom: 20px;
 }
 
-.other__packages__card__1__right__room img {
+.other__packages__card__1__right__room img,
+.other__packages__card__2__down__room img {
     margin-right: 10px;
 }
 
-.other__packages__card__1__right__price {
+.other__packages__card__1__right__price,
+.other__packages__card__2__down__price {
     display: flex;
     justify-content: space-between;
     width: 299px;
 }
 
-.other__packages__card__1__right__price p {
+.other__packages__card__1__right__price p,
+.other__packages__card__2__down__price p {
     font-size: 14px;
     font-weight: normal;
     line-height: normal;
     color: #FFFFFF;
 }
 
-.other__packages__card__1__right__price h3 {
+.other__packages__card__1__right__price h3,
+.other__packages__card__2__down__price h3 {
     font-size: 24px;
     font-weight: bold;
     line-height: 30px;
@@ -888,7 +892,8 @@ header {
 
 
 
-.other__packages__card__1__right__price .button__red {
+.other__packages__card__1__right__price .button__red,
+.other__packages__card__2__down__price .button__red {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -898,7 +903,8 @@ header {
     border-radius: 4px;
 }
 
-.other__packages__card__1__right__price .button__red p {
+.other__packages__card__1__right__price .button__red p,
+.other__packages__card__2__down__price .button__red p {
     font-family: "Nunito";
     font-size: 14px;
     font-weight: 600;
@@ -908,11 +914,8 @@ header {
 
 
 
-
-
-
-
 .other__packages__card__2 {
+    position: relative;
     width: 350px;
     height: 500px;
 }
@@ -924,7 +927,40 @@ header {
     border-radius: 8px 8px 0px 0px;
 }
 
+.other__packages__card__2__photo .offer__red,
+.other__packages__card__3__photo .offer__red,
+.other__packages__card__4__photo .offer__red, 
+.other__packages__card__5__photo .offer__red {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 60px;
+    height: 18px;
+    background: #EC1F46;
+    border-radius: 0px 4px 4px 0px;
+    margin-top: 30px;
+}
+
+.other__packages__card__2__photo .offer__red p,
+.other__packages__card__3__photo .offer__red p,
+.other__packages__card__4__photo .offer__red p, 
+.other__packages__card__5__photo .offer__red p {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 10px;
+    color: #FFFFFF;
+}
+
+
+
 .other__packages__card__2__down {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
     width: 350px;
     height: 250px;
     background: #0A223D;
@@ -932,11 +968,67 @@ header {
 
 }
 
+.other__packages__card__2__down__room {
+    margin-top: 20px;
+}
+
+
+
 
 
 .other__packages__card__3 {
     width: 350px;
     height: 500px;
-    background: yellowgreen;
     margin-top: 30px;
+}
+
+.other__packages__card__3__photo {
+    width: 350px;
+    height: 250px;
+    background: url(img/Rectangle\ 22.png);
+    border-radius: 8px 8px 0px 0px;
+}
+
+.other__packages__card__4__photo {
+    width: 350px;
+    height: 250px;
+    background: url(img/Rectangle\ 23.png);
+    border-radius: 8px 8px 0px 0px;
+}
+
+.other__packages__card__5__photo {
+    width: 350px;
+    height: 250px;
+    background: url(img/Rectangle\ 24.png);
+    border-radius: 8px 8px 0px 0px;
+}
+
+
+.guest__review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    height: 325px;
+}
+
+.guest__review__package-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 731px;
+    height: 325px;
+    background: red;
+}
+
+/* .profile__card {
+    width: 97px;
+    height: 149px;
+    background: yellow;
+} */
+
+.guest__review__package-card__text {
+    width: 607px;
+    height: 237.25px;
+    background: green;
 }
